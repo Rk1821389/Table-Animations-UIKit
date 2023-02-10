@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		AF4CDB3E2996C3DD00579BAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4CDB3D2996C3DD00579BAF /* AppDelegate.swift */; };
 		AF4CDB402996C3DD00579BAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4CDB3F2996C3DD00579BAF /* SceneDelegate.swift */; };
-		AF4CDB422996C3DD00579BAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4CDB412996C3DD00579BAF /* ViewController.swift */; };
+		AF4CDB422996C3DD00579BAF /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4CDB412996C3DD00579BAF /* MainVC.swift */; };
 		AF4CDB452996C3DD00579BAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4CDB432996C3DD00579BAF /* Main.storyboard */; };
 		AF4CDB472996C3DE00579BAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4CDB462996C3DE00579BAF /* Assets.xcassets */; };
 		AF4CDB4A2996C3DE00579BAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4CDB482996C3DE00579BAF /* LaunchScreen.storyboard */; };
+		AF4CDB532996C40600579BAF /* TableViewAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4CDB522996C40600579BAF /* TableViewAnimations.swift */; };
+		AF4CDB572996C94400579BAF /* AnimationTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4CDB562996C94400579BAF /* AnimationTableVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AF4CDB3A2996C3DD00579BAF /* TableAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4CDB3D2996C3DD00579BAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF4CDB3F2996C3DD00579BAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AF4CDB412996C3DD00579BAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF4CDB412996C3DD00579BAF /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		AF4CDB442996C3DD00579BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF4CDB462996C3DE00579BAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF4CDB492996C3DE00579BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF4CDB4B2996C3DE00579BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF4CDB522996C40600579BAF /* TableViewAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAnimations.swift; sourceTree = "<group>"; };
+		AF4CDB562996C94400579BAF /* AnimationTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTableVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,25 @@
 		AF4CDB3C2996C3DD00579BAF /* TableAnimations */ = {
 			isa = PBXGroup;
 			children = (
+				AF4CDB512996C3F100579BAF /* Utitlity */,
 				AF4CDB3D2996C3DD00579BAF /* AppDelegate.swift */,
 				AF4CDB3F2996C3DD00579BAF /* SceneDelegate.swift */,
-				AF4CDB412996C3DD00579BAF /* ViewController.swift */,
+				AF4CDB412996C3DD00579BAF /* MainVC.swift */,
+				AF4CDB562996C94400579BAF /* AnimationTableVC.swift */,
 				AF4CDB432996C3DD00579BAF /* Main.storyboard */,
 				AF4CDB462996C3DE00579BAF /* Assets.xcassets */,
 				AF4CDB482996C3DE00579BAF /* LaunchScreen.storyboard */,
 				AF4CDB4B2996C3DE00579BAF /* Info.plist */,
 			);
 			path = TableAnimations;
+			sourceTree = "<group>";
+		};
+		AF4CDB512996C3F100579BAF /* Utitlity */ = {
+			isa = PBXGroup;
+			children = (
+				AF4CDB522996C40600579BAF /* TableViewAnimations.swift */,
+			);
+			path = Utitlity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF4CDB422996C3DD00579BAF /* ViewController.swift in Sources */,
+				AF4CDB422996C3DD00579BAF /* MainVC.swift in Sources */,
+				AF4CDB572996C94400579BAF /* AnimationTableVC.swift in Sources */,
 				AF4CDB3E2996C3DD00579BAF /* AppDelegate.swift in Sources */,
+				AF4CDB532996C40600579BAF /* TableViewAnimations.swift in Sources */,
 				AF4CDB402996C3DD00579BAF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
